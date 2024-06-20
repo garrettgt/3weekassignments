@@ -89,9 +89,3 @@ def student_info():
 if __name__ == '__main__':
     app.run(debug=True)
 
-
-# dfsgjdfsgnsdfgfdsngdfkngdfjkgndsfjkdnkjlgfdkngdskngd
-
-1 + 3
-5+ 9 
-5 + 234234234
