@@ -26,14 +26,15 @@ class Student(db.Model):
         }
 
     def students_classes(self):
+        # spec_sub = Teachers[]
         return {
             'id' : self.id,
             'first_name' : self.first_name,
             'last_name' : self.last_name,
             'age' : self.age,
             'class' : {
-                'subject' : self.subject,
-                'teacher' : f"{Teachers[self.subject]['first_name']} {Teachers[self.subject]['first_name']}"
+                # 'subject' : Subjects['subject'],
+                # 'teacher' : f"{Teachers['id']}"
             }
         }
 
