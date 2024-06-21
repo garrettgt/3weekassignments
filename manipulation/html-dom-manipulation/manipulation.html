@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Manipulation</title>
+    <script src="./script.js" async defer></script>
+    <link rel="stylesheet" href="effects.css" />
+  </head>
+  <body>
+    <p>
+      The
+      <img
+        id="Catyawning"
+        src="https://cdn.britannica.com/70/234870-050-D4D024BB/Orange-colored-cat-yawns-displaying-teeth.jpg"
+        alt="Cat"
+        width="400"
+        height="261"
+        style="border: 3px solid red; border-radius: 50px"
+        onmousemove="replaceImages()"
+      />
+      in the
+      <img
+        id="Catwithhat"
+        src="https://i.etsystatic.com/10692466/r/il/619b56/1783519511/il_570xN.1783519511_l5sk.jpg"
+        alt="Hat"
+        width="285"
+        height="303"
+        style="border: 3px solid red; border-radius: 50px"
+        onmousemove="replaceImages1()"
+      />
+    </p>
+    <div id="features-buttons">
+      <button
+        class="features-button"
+        id="theButton"
+        onclick="featureImage1()"
+        type="button"
+      >
+        <i class="fa fa-briefcase" /> Cat yawning
+      </button>
+      <button
+        class="features-button"
+        id="theButton"
+        onclick="featureImage2()"
+        type="button"
+      >
+        <i class="fa fa-plus-circle" /> Cat with hat
+      </button>
+    </div>
+
+    <img
+      class="features-image"
+      id="sleepycat"
+      src="https://media1.popsugar-assets.com/files/thumbor/xGK7vjhJZF1YhYvHVtVFx0IPhGo=/0x0:2003x2003/fit-in/792x792/filters:format_auto():upscale()/2019/09/23/864/n/1922243/74b4f2275d89208a0f2ad4.00493766_.jpg"
+      style="border-radius: 30px"
+      onmousemove="featureImage3()"
+    />
+  </body>
+</html>
